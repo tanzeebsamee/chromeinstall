@@ -2,8 +2,6 @@
 
 - hosts: all
 
- # sudo: yes
 
-#  tasks:
   roles:
-    - pixelart.chrome
+     - { role: cmprescott.chrome, become: yes }
