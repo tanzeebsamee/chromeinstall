@@ -4,4 +4,4 @@
 
 
   roles:
-     - role: cmprescott.chrome
+     - { role: cmprescott.chrome }
