@@ -4,6 +4,6 @@
 
  # sudo: yes
 
-  tasks:
+#  tasks:
   roles:
     - pixelart.chrome
