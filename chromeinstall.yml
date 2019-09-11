@@ -5,12 +5,5 @@
  # sudo: yes
 
   tasks:
-
-    - name: Installing Google Chrome 
-
-      command: "{{ item }}"
-
-      with_items :
-
-       - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-       - sudo dpkg -i google-chrome-stable_current_amd64.deb
+  roles:
+    - pixelart.chrome
