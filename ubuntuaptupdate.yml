@@ -1,8 +1,6 @@
 ---
 - hosts: all
-  sudo: yes
+#  sudo: yes
   tasks:
     - name: Updating Ubuntu Clients
-      apt:
-        name: "*"
-        state: latest
+      command: sudo apt-get update -y
