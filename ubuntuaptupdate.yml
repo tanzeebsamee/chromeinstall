@@ -1,0 +1,8 @@
+---
+- hosts: all
+#  sudo: yes
+  tasks:
+    - name: Updating Ubuntu Clients
+      apt:
+        name: "*"
+        state: latest
