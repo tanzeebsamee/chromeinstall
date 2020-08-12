@@ -4,4 +4,4 @@
   #become_user: root
   tasks:
     - name: Updating Ubuntu Clients
-      command: apt-get update -y
+      command: sudo apt-get update -y
