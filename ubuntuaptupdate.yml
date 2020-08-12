@@ -1,7 +1,5 @@
 ---
 - hosts: all
-  sudo: yes
-  #become_user: root
   tasks:
     - name: Updating Ubuntu Clients
       command: sudo apt-get update -y
